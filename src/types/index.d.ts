@@ -8,7 +8,7 @@ interface IEmployeeAddresses {
 interface IEmployeeFields {
   id?: string;
   firstName?: string;
-  lastname?: string;
+  lastName?: string;
   email?: string;
   phoneNumber?: string;
   addresses?: [IEmployeeAddresses];
